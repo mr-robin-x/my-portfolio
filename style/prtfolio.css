@@ -6,6 +6,11 @@
   font-variation-settings:
     "wdth" 100;
 }
+.header{
+    background-image: url('../images/developer.png');
+    background-repeat: none;
+    
+}
 nav{
     display:flex;
     align-items: center;
@@ -50,4 +55,27 @@ ul li a{
     font-size:20px;
     border-radius: 5px;
     color:white;
+    border:none;
+}
+.banner-greeting{
+    font-size: 45px;
+    font-weight: 600;
+}
+.baner-title{
+    font-size:85px;
+    font-weight:bold;
+}
+.banner-discription{
+    font-size: 18px;
+}
+.banner-profile-pic{
+    width:584px;
+    height:676px;
+   
+}
+.banner{
+    display:flex;
+    justify-content: space-between;
+    margin: 0 38px 0 200px;
+    
 }
